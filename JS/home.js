@@ -8,7 +8,7 @@ btnSubmit.addEventListener("click", () => {
   var nameOwner = document.querySelector(".inputName").value;
   var unity = document.querySelector(".inputUnity").value;
   var qtdVeiculos = document.querySelector(".inputQtdVeiculos").value;
-  var bloco = document.querySelector(".bloco").value;
+
   const placa01 = document.querySelector(".inputPlaca1").value;
   const placa02 = document.querySelector(".inputPlaca2").value;
   const placa03 = document.querySelector(".inputPlaca3").value;
@@ -20,8 +20,7 @@ btnSubmit.addEventListener("click", () => {
     isNaN(qtdVeiculos) ||
     qtdVeiculos == "" ||
     nameOwner == "" ||
-    placa1 == "" ||
-    bloco == ""
+    placa1 == ""
   ) {
     alert("Valor inválido");
     return;
@@ -34,7 +33,6 @@ btnSubmit.addEventListener("click", () => {
       nome: nameOwner,
       vagas: 2,
       unidade: unity,
-      bloco: bloco,
       qtdVeiculo: qtdVeiculos,
       placa1: placa01,
       placa2: placa02,
