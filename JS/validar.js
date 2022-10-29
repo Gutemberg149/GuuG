@@ -74,12 +74,12 @@ function exiting() {
       vagasDisponiveis.innerHTML = `Vagas disponíveis: ${cadastro[i].vagas}`;
       console.log("Vagas apos a saida" + cadastro[i].vagas);
       return;
-    } else if (cadastro[i].placa1 === placaSaida) {
+    } else if (cadastro[i].placa2 === placaSaida) {
       cadastro[i].vagas++;
       vagasDisponiveis.innerHTML = `Vagas disponíveis: ${cadastro[i].vagas}`;
       console.log("Vagas apos a saida" + cadastro[i].vagas);
       return;
-    } else if (cadastro[i].placa1 === placaSaida) {
+    } else if (cadastro[i].placa3 === placaSaida) {
       cadastro[i].vagas++;
       vagasDisponiveis.innerHTML = `Vagas disponíveis: ${cadastro[i].vagas}`;
       console.log("Vagas apos a saida" + cadastro[i].vagas);
